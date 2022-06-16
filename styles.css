@@ -1,0 +1,140 @@
+/* *******LIBRARY STYLING ****** */
+
+#particles-js {
+    background:black;
+    height: 100%;
+    
+}
+
+/* ******UNIVERSAL STYLING****** */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif !important;
+    
+  }
+  
+  p {
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+      
+      color:deeppink;
+  }
+ 
+
+/* **** NAVBAR STYLING***** */
+
+nav .container-fluid{
+    background-color: palevioletred;
+    width: 100vw;
+    height:100px;
+}
+
+
+/* ***** CAROUSEL STYLING**** */
+
+.carousel img {
+    width: 100vw;
+    height : 400px;
+    /* overflow: hidden; */
+ }
+ 
+ /* .carousel-caption p {
+    font-size: 20px;
+ } */
+
+ /* ****TITLE STYLING**** */
+.title{
+    color:blueviolet;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin:5%;
+} 
+
+/* ****LINK BUTTONS STYLING**** */
+
+.link_buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 35%;
+    width:400px;
+    height:150px;
+    background-color: antiquewhite;
+    
+}
+
+/* ****OVERALL MODAL AND CONTENT STYLING**** */
+
+.trim-3-lines {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .add__new__btn__modile__only {
+    position: fixed;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    padding: 15px 10px;
+    background: white;
+    z-index: 3;
+  }
+  .place__holder__image {
+    height: 200px;
+    width: 100%;
+  }
+  .task__card {
+    cursor: pointer;
+    background-color:peachpuff;
+  }
+  
+  .task__card:hover {
+    border: 1px solid #4582ec;
+    
+  }
+  
+  .task__card:hover .task__card__title {
+    color:coral;
+  }
+  
+  .task__card:hover .task__card__header {
+    border-bottom: 1px solid #4582ec;
+
+    
+  }
+  .task__card:hover .task__card__footer {
+    border-top: 1px solid #4582ec;
+  }
+.prodlink
+{
+  width: -moz-fit-content ;
+   width: fit-content ;
+}
+.prodlink:hover
+{
+  width: -moz-fit-content ;
+   width: fit-content ;
+}
+  
+  
+  @media (min-width: 768px) {
+    .add__new__btn__modile__only {
+      display: none;
+    }
+  }
+
+
+
